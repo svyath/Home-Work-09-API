@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars</title>
+    <link rel="shortcut icon" type="image/png" href="img/dart.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box__header">
+            <span>planet</span>
+            <h1 id="name">Planet Name</h1>
+        </div>
+        <div class="box">
+            
+            <div class="box__body">
+                <div class="box__body-infos">
+                    <ul>
+                        <li>
+                            <span>rotation period</span>
+                            <p id="rotation">-</p>
+                        </li>
+                        <li>
+                            <span>orbital period</span>
+                            <p id="orbital">-</p>
+                        </li>
+                        <li>
+                            <span>diameter</span>
+                            <p id="diameter">-</p>
+                        </li>
+                        <li>
+                            <span>climate</span>
+                            <p id="climate">-</p>
+                        </li>
+                        <li>
+                            <span>gravity</span>
+                            <p id="gravity">-</p>
+                        </li>
+                        <li>
+                            <span>terrain</span>
+                            <p id="terrain">-</p>
+                        </li>
+                        <li>
+                            <span>surface water</span>
+                            <p id="surfaceWater">-</p>
+                        </li>
+                        <li>
+                            <span>population</span>
+                            <p id="population">-</p>
+                        </li>
+                        <li>
+                            <span>residents</span>
+                            <p id="residents">-</p>
+                        </li>
+                        <li>
+                            <span>films</span>
+                            <p id="films">-</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="next">
+            <button id="button" class="btn">Load Planet</button>
+        </div>
+    </div>
+    <div class="searchContainer">
+        <div class="search">
+            <div class="search_form">
+              <form>
+              <label>
+                Search Field
+                <input type="text" class="object_search" id="object_search_input" />
+              </label>
+              <button id="search_request_btn" class="button2">Search Planet</button>
+              </form>
+            </div>
+            <ul class="search_result"></ul>
+          </div>
+          <div class="person_data"></div>
+    </div>
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+</html>

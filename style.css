@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    background-image: url("img/background_05.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 80%;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.box__header {
+    width: 80%;
+    background: #0000004b;
+    padding: 6% 0;
+    text-align: center;
+    box-shadow: 0px 0px 26px #000000cc;
+    z-index: 5;
+    border-top-right-radius: 25%;
+    border-top-left-radius: 25%;
+}
+
+span {
+    color: #696969;
+    font-size: 12px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    opacity: 0.3;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 5px;
+    text-transform: initial;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.box__body {
+    width: 80%;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffffe8;
+    overflow: auto;
+}
+
+.box__body-infos {
+    width: 80%;
+    height: 80%;
+    display: flex;
+}
+
+ul {
+    width: 100%;
+}
+
+li {
+    width: 100%;
+    list-style: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+span {
+    font-size: 12px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    opacity: 0.3;
+    font-weight: 700;
+}
+
+p {
+    font-size: 18px;
+    text-transform: initial;
+    font-weight: 700;
+    word-break: break-all;
+}
+
+p:last-child {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.next {
+    width: 80%;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    max-width: 150px;
+    width: 100%;
+    padding: 15px;
+    font-family: 'Montserrat';
+    border-radius: 10px;
+    background: #0000004b;
+    border: 2px solid #696969;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: 700;
+    outline: none;
+}
+
+.btn:hover {
+    background: #000000;
+    box-shadow: 0px 0px 22px #0000004f;
+}
+
+.box__header span {
+    color: #FFFFFF;
+}
+
+
+  body, input[text]{
+    font-family: 'Montserrat';
+    font-size: 20px;
+
+  }
+  .searchContainer {
+    display: flex; 
+    margin: 20px;
+    justify-content: left; 
+    align-items: top;
+  }
+ 
+  .search input.person_search {
+    size:40px;
+    width: 30%;
+  }
+  
+  .search .search_result li{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    list-style-type: none;
+    padding: 7px;
+    margin: 6px;
+    border: solid 2px;
+    cursor: pointer;
+    text-align: center;
+    color: #FFFFFF;
+    border: solid 0px #000;
+    border-radius: 5px;
+    outline: none;
+    background: #0000008c;
+    box-shadow: 0px 0px 26px #ffffffcc;
+  }
+  .search .search_result li:hover{
+    border-color: #fff;
+    color: #fff;
+  }
+  
+  .person_data{
+    margin: 60px 0 0 90px; 
+    width: 50%;
+    color: #FFFFFF;
+  }
+  
+  .button2 {
+    max-width: 150px;
+    width: 100%;
+    padding: 15px;
+    font-family: 'Montserrat';
+    border-radius: 10px;
+    background: #0000004b;
+    border: 2px solid #696969;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: 700;
+    outline: none;
+    margin-left: 65px;
+    margin-top: 10px;
+  }
+
+  .button2:hover {
+    background: #000000;
+    box-shadow: 0px 0px 22px #0000004f;
+  }
+  
+  input[type=text] {
+    display: block;
+      padding: 10px 10px;
+      margin: 10px 5px;
+      box-sizing: border-box; 
+      background: #ffffffe8;
+      color: black;
+      border: solid 0px #000;
+      border-radius: 10px;
+      outline: none;
+      font-size: 20px;
+  }
+  label {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 5px;
+    text-transform: initial;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  
