@@ -7,14 +7,14 @@ body {
     height: 100vh;
     display: flex;
     justify-content: space-around;
-    align-items:center;
+    align-items: center;
     background-image: url("img/background_05.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Montserrat', sans-serif;
 }
 
-.container {
+.loadContainer {
     width: 80%;
     max-width: 500px;
     display: flex;
@@ -28,7 +28,7 @@ body {
     flex-direction: column;
 }
 
-.box__header {
+.loadTop {
     width: 80%;
     background: #0000004b;
     padding: 6% 0;
@@ -58,7 +58,7 @@ h1 {
     font-family: 'Montserrat', sans-serif;
 }
 
-.box__body {
+.boxBody {
     width: 80%;
     height: 380px;
     display: flex;
@@ -68,7 +68,7 @@ h1 {
     overflow: auto;
 }
 
-.box__body-infos {
+.boxInfo {
     width: 80%;
     height: 80%;
     display: flex;
@@ -109,18 +109,18 @@ p:last-child {
 }
 
 
-.next {
+.load {
     width: 80%;
     margin-top: 25px;
     display: flex;
     justify-content: center;
 }
 
-.btn {
+.btn1 {
     max-width: 150px;
     width: 100%;
     padding: 15px;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     border-radius: 10px;
     background: #0000004b;
     border: 2px solid #696969;
@@ -130,35 +130,33 @@ p:last-child {
     outline: none;
 }
 
-.btn:hover {
+.btn1:hover {
     background: #000000;
     box-shadow: 0px 0px 22px #0000004f;
 }
 
-.box__header span {
+.loadTop span {
     color: #FFFFFF;
 }
 
-
-  body, input[text]{
-    font-family: 'Montserrat';
+input[text] {
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
+}
 
-  }
-  .searchContainer {
-    display: flex; 
+.searchContainer {
+    display: flex;
     margin: 20px;
-    justify-content: left; 
+    justify-content: left;
     align-items: top;
-  }
- 
-  .search input.person_search {
-    size:40px;
-    width: 30%;
-  }
-  
-  .search .search_result li{
-    font-family: 'Montserrat';
+}
+
+.search input  {
+    size: 40px;
+}
+
+.search .searchResult li {
+    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     list-style-type: none;
     padding: 7px;
@@ -172,23 +170,24 @@ p:last-child {
     outline: none;
     background: #0000008c;
     box-shadow: 0px 0px 26px #ffffffcc;
-  }
-  .search .search_result li:hover{
+}
+
+.search .searchResult li:hover {
     border-color: #fff;
     color: #fff;
-  }
-  
-  .person_data{
-    margin: 60px 0 0 90px; 
+}
+
+.returnData {
+    margin: 60px 0 0 90px;
     width: 50%;
     color: #FFFFFF;
-  }
-  
-  .button2 {
+}
+
+.btn2 {
     max-width: 150px;
     width: 100%;
     padding: 15px;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     border-radius: 10px;
     background: #0000004b;
     border: 2px solid #696969;
@@ -198,32 +197,31 @@ p:last-child {
     outline: none;
     margin-left: 65px;
     margin-top: 10px;
-  }
+}
 
-  .button2:hover {
+.btn2:hover {
     background: #000000;
     box-shadow: 0px 0px 22px #0000004f;
-  }
-  
-  input[type=text] {
+}
+
+input[type=text] {
     display: block;
-      padding: 10px 10px;
-      margin: 10px 5px;
-      box-sizing: border-box; 
-      background: #ffffffe8;
-      color: black;
-      border: solid 0px #000;
-      border-radius: 10px;
-      outline: none;
-      font-size: 20px;
-  }
-  label {
+    padding: 10px 10px;
+    margin: 10px 5px;
+    box-sizing: border-box;
+    background: #ffffffe8;
+    color: black;
+    border: solid 0px #000;
+    border-radius: 10px;
+    outline: none;
+    font-size: 20px;
+}
+
+label {
     color: #fff;
     font-size: 24px;
     font-weight: 700;
     margin-top: 5px;
     text-transform: initial;
     font-family: 'Montserrat', sans-serif;
-  }
-  
-  
+}

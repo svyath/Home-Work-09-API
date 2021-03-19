@@ -9,15 +9,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="box__header">
+    <div class="loadContainer">
+        <div class="loadTop">
             <span>planet</span>
             <h1 id="name">Planet Name</h1>
         </div>
         <div class="box">
-            
-            <div class="box__body">
-                <div class="box__body-infos">
+            <div class="boxBody">
+                <div class="boxInfo">
                     <ul>
                         <li>
                             <span>rotation period</span>
@@ -63,24 +62,21 @@
                 </div>
             </div>
         </div>
-        <div class="next">
-            <button id="button" class="btn">Load Planet</button>
+        <div class="load">
+            <button id="button" class="btn1">Load Planet</button>
         </div>
     </div>
     <div class="searchContainer">
         <div class="search">
-            <div class="search_form">
+            <div class="searchForm">
               <form>
-              <label>
-                Search Field
-                <input type="text" class="object_search" id="object_search_input" />
-              </label>
-              <button id="search_request_btn" class="button2">Search Planet</button>
+              <label>Search Field<input type="text" class="objectSearch" id="objectInput" /></label>
+              <button id="searchBtn" class="btn2">Search Planet</button>
               </form>
             </div>
-            <ul class="search_result"></ul>
+            <ul class="searchResult"></ul>
           </div>
-          <div class="person_data"></div>
+          <div class="returnData"></div>
     </div>
     <script src="main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
